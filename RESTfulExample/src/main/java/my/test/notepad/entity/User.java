@@ -7,20 +7,28 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class User {
 
 	@Id
-	private int Id;
-	private String name;
-	public int getId() {
-		return Id;
+	private long userId;
+	
+	private String userName;
+	
+	public long getId() {
+		return userId;
 	}
-	public void setId(int id) {
-		Id = id;
+	public void setId(long id) {
+		this.userId = id;
 	}
-	public String getName() {
-		return name;
+	public String getUserName() {
+		return userName;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setUserName(String name) {
+		this.userName = name;
 	}
+	
+	@Override
+	public String toString() {
+		return "User [userId=" + userId + ", userName=" + userName + "]";
+	}
+
 	
 	
 }

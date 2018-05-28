@@ -1,0 +1,63 @@
+Listening for transport dt_socket at address: 8000
+Nov 01, 2015 9:48:31 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/sfnu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Nov 01, 2015 9:48:32 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Nov 01, 2015 9:48:32 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 01, 2015 9:48:32 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 589 ms
+Nov 01, 2015 9:48:32 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 01, 2015 9:48:32 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.55
+Nov 01, 2015 9:48:32 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/sfnu/work/test/apache-tomcat-7.0.55/webapps/RESTfulExample.war
+Nov 01, 2015 9:48:34 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+Nov 01, 2015 9:48:34 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/RESTfulExample] startup failed due to previous errors
+Nov 01, 2015 9:48:34 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /Users/sfnu/work/test/apache-tomcat-7.0.55/webapps/RESTfulExample.war has finished in 1,947 ms
+Nov 01, 2015 9:48:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/sfnu/work/test/apache-tomcat-7.0.55/webapps/docs
+Nov 01, 2015 9:48:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/sfnu/work/test/apache-tomcat-7.0.55/webapps/docs has finished in 50 ms
+Nov 01, 2015 9:48:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/sfnu/work/test/apache-tomcat-7.0.55/webapps/examples
+Nov 01, 2015 9:48:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/sfnu/work/test/apache-tomcat-7.0.55/webapps/examples has finished in 266 ms
+Nov 01, 2015 9:48:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/sfnu/work/test/apache-tomcat-7.0.55/webapps/host-manager
+Nov 01, 2015 9:48:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/sfnu/work/test/apache-tomcat-7.0.55/webapps/host-manager has finished in 37 ms
+Nov 01, 2015 9:48:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/sfnu/work/test/apache-tomcat-7.0.55/webapps/manager
+Nov 01, 2015 9:48:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/sfnu/work/test/apache-tomcat-7.0.55/webapps/manager has finished in 34 ms
+Nov 01, 2015 9:48:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/sfnu/work/test/apache-tomcat-7.0.55/webapps/ROOT
+Nov 01, 2015 9:48:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/sfnu/work/test/apache-tomcat-7.0.55/webapps/ROOT has finished in 26 ms
+Nov 01, 2015 9:48:34 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Nov 01, 2015 9:48:34 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 01, 2015 9:48:34 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2430 ms
+Nov 01, 2015 9:54:44 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Nov 01, 2015 9:54:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Nov 01, 2015 9:54:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 01, 2015 9:54:44 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 01, 2015 9:54:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Nov 01, 2015 9:54:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 01, 2015 9:54:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Nov 01, 2015 9:54:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

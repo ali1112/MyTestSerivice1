@@ -1,21 +1,27 @@
 package my.test.notepad.resourceEntity;
 
-public class UserEntity {
+import com.fasterxml.jackson.annotation.JsonProperty;
 
-	private int Id;
-	private String name;
+public class UserEntity {
 	
-	public int getId() {
-		return Id;
+	@JsonProperty("userId")
+	private long userId;
+	
+	@JsonProperty("userName")
+	private String userName;
+		
+
+	public long getUserId() {
+		return userId;
 	}
-	public void setId(int id) {
-		Id = id;
+	public void setUserId(long userId) {
+		this.userId = userId;
 	}
-	public String getName() {
-		return name;
+	public String getUserName() {
+		return userName;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setUserName(String name) {
+		this.userName = name;
 	}
 	
 	
